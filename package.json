@@ -1,0 +1,23 @@
+{
+  "name": "d3js-example",
+  "version": "1.0.0",
+  "description": "Example of D3js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon  app.js",
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar<abhishek_ku@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "d3": "5.15.0",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "babel-cli": "6.26.0"
+  }
+}
